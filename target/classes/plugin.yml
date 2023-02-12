@@ -1,0 +1,11 @@
+name: Hellocommandplugin
+version: '${project.version}'
+main: me.rajcepro.hellocommandplugin.Hellocommandplugin
+api-version: 1.19
+authors: [ ImTobis ]
+
+commands:
+  kit:
+    description: Your description
+    usage: /<command>
+    permission: hellocommand.kit
